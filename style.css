@@ -1,0 +1,105 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    height: 885px;                                                                                           
+}
+
+.container {
+    margin: 30px 50px 30px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 40px;
+    
+}
+
+.container h2 {
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.container h3 {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+.container h4 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+.container img {
+    max-width: 176px;
+    border-radius: 100px;
+}
+
+
+.container a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 25px;
+    border: none;
+    padding: 15px;
+    width: 400px;
+    height: 25px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.container a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    font-weight: 600;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width:375px) {
+    .card {
+        height: 150vh; 
+    }
+
+    .container {
+        width: 90%; 
+        margin: 10px; 
+        padding: 20px; 
+    }
+
+    .container img {
+        max-width: 100%; 
+    }
+
+    .container a {
+        width: 100%; 
+    }
+}
+
+
+@media only screen and (min-width:1440px) {
+    .container {
+        width: 30%;
+        
+        
+    }
+}
